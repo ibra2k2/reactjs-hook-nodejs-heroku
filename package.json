@@ -7,7 +7,6 @@
   },
   "scripts": {
     "start": "node server",
-    "server": "json-server -p3001 db.json",
     "build": "cd react-ui/ && npm install && npm run build"
   },
   "keywords": [
