@@ -68,6 +68,12 @@ function App() {
   const removeNoteOf = (id) => {
     setNotes(notes.filter(note => note.id !== id));
     console.log('Deleted Note:', id);
+    noteService
+    .remove(id)
+    // .then(response => {
+      //setNotes(notes.filter(n => n.id !== id));
+      // console.log('Remove Note id', id);
+    // })
     
   } 
 
