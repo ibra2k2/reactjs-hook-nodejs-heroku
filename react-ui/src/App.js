@@ -98,7 +98,7 @@ function App() {
       </div>
       <div>
       <form onSubmit = {addNote}>
-        <input type = "text" 
+        <input type = "text" required 
         value = {newNote}
         onChange = {handleNodeChange}
         />
