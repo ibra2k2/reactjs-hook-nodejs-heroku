@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.css';
 import Note from './components/Note';
 import noteService from './services/notes';
+import Notification from 'react-notifications-component';
 
 
 function App() {
